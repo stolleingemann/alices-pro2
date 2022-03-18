@@ -1,0 +1,67 @@
+
+#velkommen{
+text-align: center;
+padding-top: 3em;
+margin-bottom: 2em;
+font-size: 24px;
+}
+
+#tryk{
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  section img{
+    width: 300px;
+    height: 300px;
+  }
+  
+  .indkurv {
+    background-color: rgb(78, 128, 151);
+    min-width: 50%;
+    min-height: 100vh;
+    color: white;
+    border-style: dashed;
+    border-color: black;
+  }
+
+  #bestillinger img{
+    display: none;
+  }
+
+  #menu1, #menu2, #menu3, #menu4, #menu5, #menu6, #menu7{
+      border-bottom: 1px;
+      border-color: black;
+      justify-content: space-between;
+  }
+
+  #slet, #betal{
+    background-color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+
+  #bestillingstekst{
+      font-size: 30px;
+      text-align: center;
+  }
+
+  #total{
+    font-size: 25px;
+    text-align: center;
+  }
+
